@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.involta.textile.android.androidApp-mergeDebugResources-46:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/developer/.gradle/caches/transforms-3/1c5560735da6c5c9e64ea44481485fd0/transformed/appcompat-1.4.0-alpha03/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
