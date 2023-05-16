@@ -13,8 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "textile"
+rootProject.name = "diamant"
 include(":androidApp")
 include(":shared")
 include(":compose-umbrella")
-include(":desktop")

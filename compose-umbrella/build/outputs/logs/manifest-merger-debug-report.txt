@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml:2:1-60
-INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml:2:1-60
-INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml:2:1-60
+ADDED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml:2:1-60
+INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml:2:1-60
+INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml:2:1-60
 	package
-		ADDED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml:2:11-57
-		INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
-		INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml:2:11-57
+		INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml:2:1-60
+		ADDED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml:2:1-60
 uses-sdk
-INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
-INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
-INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
-INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
+INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
-		ADDED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
-		INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
-		ADDED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
-		INJECTED from /Users/developer/Documents/GitHub/textile-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
+		ADDED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml
+		INJECTED from /Users/developer/Documents/GitHub/diamant-multiplatform/compose-umbrella/src/androidMain/AndroidManifest.xml

@@ -1,4 +1,4 @@
-com.involta.textile.android
+com.involta.diamant.android
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -65,7 +65,9 @@ attr actionOverflowButtonStyle
 attr actionOverflowMenuStyle
 attr actionProviderClass
 attr actionViewClass
+attr activityAction
 attr activityChooserViewStyle
+attr activityName
 attr alertDialogButtonGroupStyle
 attr alertDialogCenterButtons
 attr alertDialogStyle
@@ -73,6 +75,7 @@ attr alertDialogTheme
 attr allowStacking
 attr alpha
 attr alphabeticModifiers
+attr alwaysExpand
 attr arrowHeadLength
 attr arrowShaftLength
 attr autoCompleteTextViewStyle
@@ -106,6 +109,7 @@ attr checkMarkTint
 attr checkMarkTintMode
 attr checkboxStyle
 attr checkedTextViewStyle
+attr clearTop
 attr closeIcon
 attr closeItemLayout
 attr collapseContentDescription
@@ -158,6 +162,8 @@ attr editTextStyle
 attr elevation
 attr emojiCompatEnabled
 attr expandActivityOverflowButtonDrawable
+attr finishPrimaryWithSecondary
+attr finishSecondaryWithPrimary
 attr firstBaselineToTopHeight
 attr font
 attr fontFamily
@@ -224,10 +230,12 @@ attr paddingTopNoTitle
 attr panelBackground
 attr panelMenuListTheme
 attr panelMenuListWidth
+attr placeholderActivityName
 attr popupMenuStyle
 attr popupTheme
 attr popupWindowStyle
 attr preserveIconSpacing
+attr primaryActivityName
 attr progressBarPadding
 attr progressBarStyle
 attr queryBackground
@@ -240,6 +248,8 @@ attr ratingBarStyleSmall
 attr searchHintIcon
 attr searchIcon
 attr searchViewStyle
+attr secondaryActivityAction
+attr secondaryActivityName
 attr seekBarStyle
 attr selectableItemBackground
 attr selectableItemBackgroundBorderless
@@ -252,6 +262,10 @@ attr singleChoiceItemLayout
 attr spinBars
 attr spinnerDropDownItemStyle
 attr spinnerStyle
+attr splitLayoutDirection
+attr splitMinSmallestWidth
+attr splitMinWidth
+attr splitRatio
 attr splitTrack
 attr srcCompat
 attr state_above_anchor
@@ -633,6 +647,10 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font ptsans_bold
+font ptsans_bolditalic
+font ptsans_italic
+font ptsans_regular
 id ALT
 id CTRL
 id FUNCTION
@@ -695,6 +713,7 @@ id add
 id alertTitle
 id always
 id androidx_compose_ui_view_composition_context
+id androidx_window_activity_scope
 id async
 id beginning
 id blocking
@@ -737,6 +756,8 @@ id line1
 id line3
 id listMode
 id list_item
+id locale
+id ltr
 id message
 id middle
 id multiply
@@ -753,8 +774,10 @@ id pooling_container_listener_holder_tag
 id progress_circular
 id progress_horizontal
 id radio
+id report_drawn
 id right_icon
 id right_side
+id rtl
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -897,11 +920,49 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
+string bottom_sheet_collapse_description
+string bottom_sheet_dismiss_description
+string bottom_sheet_drag_handle_description
+string bottom_sheet_expand_description
 string close_drawer
 string close_sheet
+string collapsed
+string date_input_headline
+string date_input_headline_description
+string date_input_invalid_for_pattern
+string date_input_invalid_not_allowed
+string date_input_invalid_year_range
+string date_input_label
+string date_input_no_input_description
+string date_input_title
+string date_picker_headline
+string date_picker_headline_description
+string date_picker_navigate_to_year_description
+string date_picker_no_selection_description
+string date_picker_scroll_to_earlier_years
+string date_picker_scroll_to_later_years
+string date_picker_switch_to_calendar_mode
+string date_picker_switch_to_day_selection
+string date_picker_switch_to_input_mode
+string date_picker_switch_to_next_month
+string date_picker_switch_to_previous_month
+string date_picker_switch_to_year_selection
+string date_picker_title
+string date_picker_today_description
+string date_picker_year_picker_pane_title
+string date_range_input_invalid_range_input
+string date_range_input_title
+string date_range_picker_day_in_range
+string date_range_picker_end_headline
+string date_range_picker_scroll_to_next_month
+string date_range_picker_scroll_to_previous_month
+string date_range_picker_start_headline
+string date_range_picker_title
 string default_error_message
 string default_popup_window_title
+string dialog
 string dropdown_menu
+string expanded
 string in_progress
 string indeterminate
 string navigation_menu
@@ -910,11 +971,29 @@ string off
 string on
 string range_end
 string range_start
+string search_bar_search
 string search_menu_title
 string selected
+string snackbar_dismiss
 string status_bar_notification_info_overflow
+string suggestions_available
+string switch_role
 string tab
 string template_percent
+string time_picker_am
+string time_picker_hour
+string time_picker_hour_24h_suffix
+string time_picker_hour_selection
+string time_picker_hour_suffix
+string time_picker_hour_text_field
+string time_picker_minute
+string time_picker_minute_selection
+string time_picker_minute_suffix
+string time_picker_minute_text_field
+string time_picker_period_toggle_description
+string time_picker_pm
+string tooltip_long_press_label
+string tooltip_pane_description
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -1275,6 +1354,8 @@ styleable ActionMenuItemView android_minWidth
 styleable ActionMenuView
 styleable ActionMode background backgroundSplit closeItemLayout height subtitleTextStyle titleTextStyle
 styleable ActivityChooserView expandActivityOverflowButtonDrawable initialActivityCount
+styleable ActivityFilter activityAction activityName
+styleable ActivityRule alwaysExpand
 styleable AlertDialog android_layout buttonIconDimen buttonPanelSideLayout listItemLayout listLayout multiChoiceItemLayout showTitle singleChoiceItemLayout
 styleable AnimatedStateListDrawableCompat android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable AnimatedStateListDrawableItem android_id android_drawable
@@ -1308,6 +1389,9 @@ styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
+styleable SplitPairFilter primaryActivityName secondaryActivityAction secondaryActivityName
+styleable SplitPairRule clearTop finishPrimaryWithSecondary finishSecondaryWithPrimary splitLayoutDirection splitMinSmallestWidth splitMinWidth splitRatio
+styleable SplitPlaceholderRule placeholderActivityName splitLayoutDirection splitMinSmallestWidth splitMinWidth splitRatio
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode

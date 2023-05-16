@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.involta.textile.compose",
+  "applicationId": "com.involta.diamant.compose",
   "variantName": "debug",
   "elements": [
     {

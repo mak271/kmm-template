@@ -5,8 +5,8 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import com.adeo.kviewmodel.compose.observeAsState
 import com.adeo.kviewmodel.odyssey.StoredViewModel
-import com.involta.textile.presentation.screens.login.LoginViewModel
-import com.involta.textile.presentation.screens.login.models.LoginAction
+import com.involta.diamant.presentation.screens.login.LoginViewModel
+import com.involta.diamant.presentation.screens.login.models.LoginAction
 import ru.alexgladkov.odyssey.compose.extensions.push
 import ru.alexgladkov.odyssey.compose.local.LocalRootController
 import ui.navigation.NavigationTree

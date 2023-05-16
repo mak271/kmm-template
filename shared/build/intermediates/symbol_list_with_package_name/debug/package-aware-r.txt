@@ -1,1 +1,2 @@
-com.involta.textile.shared
+com.involta.diamant.shared
+string androidx_startup

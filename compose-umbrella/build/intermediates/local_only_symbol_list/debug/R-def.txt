@@ -1,2 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+font ptsans_bold
+font ptsans_bolditalic
+font ptsans_italic
+font ptsans_regular

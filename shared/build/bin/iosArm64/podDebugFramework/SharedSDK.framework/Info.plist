@@ -5,7 +5,7 @@
     <key>CFBundleExecutable</key>
     <string>SharedSDK</string>
     <key>CFBundleIdentifier</key>
-    <string>com.involta.textile.SharedSDK</string>
+    <string>com.involta.SharedSDK</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>

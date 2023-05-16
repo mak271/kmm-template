@@ -4,10 +4,10 @@ plugins {
 }
 
 android {
-    namespace = "com.involta.textile.android"
+    namespace = "com.involta.diamant.android"
     compileSdk = 33
     defaultConfig {
-        applicationId = "com.involta.textile.android"
+        applicationId = "com.involta.diamant.android"
         minSdk = 21
         targetSdk = 33
         versionCode = 1
@@ -17,7 +17,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.3.0"
+        kotlinCompilerExtensionVersion = "1.4.3"
     }
     packagingOptions {
         resources {
@@ -29,14 +29,20 @@ android {
             isMinifyEnabled = false
         }
     }
+
+    tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
+        kotlinOptions {
+            jvmTarget = "1.8"
+        }
+    }
 }
 
 dependencies {
     implementation(project(":compose-umbrella"))
     implementation(project(":shared"))
-    implementation("androidx.compose.ui:ui:1.3.2")
-    implementation("androidx.compose.foundation:foundation:1.3.1")
-    implementation("androidx.activity:activity-compose:1.6.1")
-    implementation("androidx.compose.material:material:1.3.1")
+    //implementation("androidx.compose.ui:ui:1.3.2")
+    //implementation("androidx.compose.foundation:foundation:1.3.1")
+    implementation("androidx.activity:activity-compose:1.7.1")
+    //implementation("androidx.compose.material:material:1.3.1")
 
 }

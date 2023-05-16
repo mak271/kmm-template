@@ -1,14 +1,14 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'shared'
     spec.version                  = '0.0.1'
-    spec.homepage                 = 'https://tp-iv.ru/'
+    spec.homepage                 = 'https://diamant-online.ru/'
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
     spec.license                  = ''
-    spec.summary                  = 'Textile IOS SDK'
+    spec.summary                  = 'Diamant IOS SDK'
     spec.vendored_frameworks      = 'build/cocoapods/framework/SharedSDK.framework'
     spec.libraries                = 'c++'
-    spec.ios.deployment_target = '14.0'
+    spec.ios.deployment_target = '15.0'
                 
                 
     spec.pod_target_xcconfig = {
@@ -22,8 +22,8 @@ Pod::Spec.new do |spec|
             :execution_position => :before_compile,
             :shell_path => '/bin/sh',
             :script => <<-SCRIPT
-                if [ "YES" = "$COCOAPODS_SKIP_KOTLIN_BUILD" ]; then
-                  echo "Skipping Gradle build task invocation due to COCOAPODS_SKIP_KOTLIN_BUILD environment variable set to \"YES\""
+                if [ "YES" = "$OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED" ]; then
+                  echo "Skipping Gradle build task invocation due to OVERRIDE_KOTLIN_BUILD_IDE_SUPPORTED environment variable set to \"YES\""
                   exit 0
                 fi
                 set -ev
